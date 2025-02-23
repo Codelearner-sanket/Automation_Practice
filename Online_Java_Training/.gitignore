@@ -1,3 +1,9 @@
 /bin/
 /target/
+*.class
 
+# Eclipse/IDEA project files
+.classpath
+.project
+.settings/
+.vscode/
