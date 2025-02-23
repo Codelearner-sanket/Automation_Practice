@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="SelePrograms.TestNG4">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- SelePrograms.TestNG4 -->
+      <class name="SelePrograms.TestNG1">
+        <methods>
+          <include name="e"/>
+          <include name="h"/>
+          <include name="i"/>
+          <include name="b"/>
+          <include name="c"/>
+          <include name="f"/>
+          <include name="d"/>
+          <include name="g"/>
+        </methods>
+      </class> <!-- SelePrograms.TestNG1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
